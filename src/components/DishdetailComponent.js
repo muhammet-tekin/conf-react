@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardImgOverlay, CardText, CardBody,
-  CardTitle, List } from 'reactstrap';
+import { Card, CardImg, CardText, CardBody, CardTitle, } from 'reactstrap';
 
 class DishDetail extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     renderComments(comments){
         const results = comments.map((com) => {
@@ -38,7 +34,7 @@ class DishDetail extends Component {
                     </CardBody>
                 </Card>
                 </div>
-                <div className ="list-unstyled" className="col-12 col-md-5">
+                <div className ="list-unstyled col-12 col-md-5">
                     <h3>Comments</h3>
                     {this.renderComments(this.props.selected.comments)}
                 </div>
