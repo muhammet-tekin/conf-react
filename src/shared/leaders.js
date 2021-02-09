@@ -29,7 +29,7 @@ export const LEADERS = [
     {
       id: 3,
       name: 'Ümit Tekin',
-      image: '/assets/images/ümit.JPG',
+      image: '/assets/images/alberto.png',
       designation: 'Executive Chef',
       abbr: 'EC',
       featured: true,
